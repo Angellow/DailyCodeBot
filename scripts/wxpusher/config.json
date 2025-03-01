@@ -1,0 +1,12 @@
+{
+    "daily_push": {
+      "template": "📅【{{date}} {{weekday}}】\n🔧 分类：{{category}}\n📚 题目：{{problems}}",
+      "buttons": [
+        {"text": "查看表格", "url": "https://docs.google.com/..."},
+        {"text": "提交打卡", "action": "checkin"}
+      ]
+    },
+    "reminder": {
+      "template": "⚠️ {{user}} 今日任务未完成！剩余：{{remaining}}"
+    }
+  }
